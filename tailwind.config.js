@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#2563eb',   // آبی
-        secondary: '#64748b', // خاکستری
+        'almostwhite': 'hsl(0, 0%, 98%)',
+        'mediumgray' : 'hsl(0, 0%, 41%)'
       },
       fontFamily: {
         vazir: ['Vazir', 'sans-serif'],
