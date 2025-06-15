@@ -1,11 +1,10 @@
 <script setup>
-import Navbar from './components/Navbar.vue'
+import HomeView from "./views/HomeView.vue";
 </script>
 
 <template>
   <div class="bg-almostwhite min-h-screen">
-  <Navbar />
-  <RouterView/>
+    <HomeView />
   </div>
 </template>
 

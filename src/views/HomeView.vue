@@ -1,5 +1,10 @@
+<script setup>
+import Navbar from "../components/Navbar.vue";
+import IntroSection from "../sections/IntroSection.vue";
+</script>
+
 <template>
-    <div>
-        Welcome to Home Page!
-    </div>
+  <Navbar />
+  <IntroSection />
+  <!-- بخش‌های بعدی -->
 </template>
