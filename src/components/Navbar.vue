@@ -22,18 +22,18 @@
 
           <div
             v-if="show"
-            class="absolute top-full bg-white shadow-xl rounded-md w-36 right-0 py-4 px-4"
+            class="absolute top-full bg-white shadow-xl rounded-md w-36 right-0 py-4 px-4 mt-4"
           >
             <a
               href="#"
-              class="flex items-center gap-3 font-epilogue font-medium text-mediumgray hover:text-black"
+              class="flex items-center gap-3 py-2 font-epilogue font-medium text-mediumgray hover:text-black text-sm"
             >
               <img src="../assets/images/icon-todo.svg" alt="Todo Icon" />
               <span>Todo List</span>
             </a>
             <a
               href="#"
-              class="flex items-center gap-3 py-1 font-epilogue font-medium text-mediumgray hover:text-black"
+              class="flex items-center gap-3 py-2 font-epilogue font-medium text-mediumgray hover:text-black text-sm"
             >
               <img
                 src="../assets/images/icon-calendar.svg"
@@ -44,7 +44,7 @@
             </a>
             <a
               href="#"
-              class="flex items-center gap-3 py-1 font-epilogue font-medium text-mediumgray hover:text-black"
+              class="flex items-center gap-3 py-2 font-epilogue font-medium text-mediumgray hover:text-black text-sm"
             >
               <img
                 src="../assets/images/icon-reminders.svg"
@@ -55,7 +55,7 @@
             </a>
             <a
               href="#"
-              class="flex items-center gap-3 py-1 font-epilogue font-medium text-mediumgray hover:text-black"
+              class="flex items-center gap-3 py-2 font-epilogue font-medium text-mediumgray hover:text-black text-sm"
             >
               <img
                 src="../assets/images/icon-planning.svg"
@@ -85,23 +85,23 @@
 
           <div
             v-if="showcompany"
-            class="absolute top-full bg-white shadow-xl rounded-md w-28 left-0 py-4 px-4"
+            class="absolute top-full bg-white shadow-xl rounded-md w-28 left-0 py-4 px-4 mt-4"
           >
             <a
               href="#"
-              class="flex items-center gap-3 font-epilogue font-medium text-mediumgray hover:text-black"
+              class="flex items-center gap-3 py-2 font-epilogue font-medium text-mediumgray hover:text-black text-sm"
             >
               <span>History</span>
             </a>
             <a
               href="#"
-              class="flex items-center gap-3 py-1 font-epilogue font-medium text-mediumgray hover:text-black"
+              class="flex items-center gap-3 py-2 font-epilogue font-medium text-mediumgray hover:text-black text-sm"
             >
               <span>Our Team</span>
             </a>
             <a
               href="#"
-              class="flex items-center gap-3 py-1 font-epilogue font-medium text-mediumgray hover:text-black"
+              class="flex items-center gap-3 py-2 font-epilogue font-medium text-mediumgray hover:text-black text-sm"
             >
               <span>Blog</span>
             </a>
