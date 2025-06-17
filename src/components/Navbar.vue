@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-between py-6 px-8">
-    <div class="flex items-center gap-24">
+  <div class="flex justify-between py-6 px-16">
+    <div class="flex items-center gap-20">
       <img src="../assets/images/logo.svg" alt="Logo" />
       <ul class="flex gap-8">
         <li
@@ -22,7 +22,7 @@
 
           <div
             v-if="show"
-            class="absolute top-full bg-white shadow-xl rounded-md w-36 right-0 py-4 px-4 mt-4"
+            class="absolute top-full bg-white shadow-xl rounded-md w-36 right-0 py-4 px-4 mt-3"
           >
             <a
               href="#"
@@ -85,7 +85,7 @@
 
           <div
             v-if="showcompany"
-            class="absolute top-full bg-white shadow-xl rounded-md w-28 left-0 py-4 px-4 mt-4"
+            class="absolute top-full bg-white shadow-xl rounded-md w-28 left-0 py-4 px-4 mt-3"
           >
             <a
               href="#"
@@ -117,12 +117,12 @@
     </div>
     <div class="flex items-center gap-10">
       <button
-        class="py-1 px-3 rounded-xl border-2 border-transparent hover:border-black font-epilogue font-medium"
+        class="py-1 px-4 rounded-xl border-2 border-transparent hover:border-black font-epilogue font-medium"
       >
         Login
       </button>
       <button
-        class="py-1 px-3 rounded-xl border-2 border-transparent hover:border-black font-epilogue font-medium"
+        class="py-1 px-4 rounded-xl border-2 border-transparent hover:border-black font-epilogue font-medium"
       >
         Register
       </button>
