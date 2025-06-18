@@ -1,6 +1,6 @@
 <template>
-  <section class="flex justify-between ">
-    <div class="flex flex-col w-1/2 ml-[180px] mt-32">
+  <section class="flex lg:justify-between flex-col-reverse lg:flex-row ">
+    <div class="flex flex-col lg:w-1/2 w-full lg:ml-[180px] mt-32">
       <h1 class="text-7xl font-epilogue font-bold  leading-none">
         Make <br class="hidden lg:block" />
         remote work
@@ -10,7 +10,7 @@
         create team rituals, and watch productivity soar.
       </p>
       <button
-        class="border border-black rounded-xl px-2 py-2.5 hover:bg-black hover:text-white transition-colors font-medium w-[130px]"
+        class="border border-black text-almostwhite rounded-xl px-2 py-2.5 bg-black hover:bg-almostwhite hover:text-black transition-colors font-medium w-[130px]"
       >
         Learn more
       </button>
@@ -21,11 +21,16 @@
         <img src="../assets/images/client-maker.svg" alt="maker" />
       </div>
     </div>
-    <div class="w-1/2 flex justify-center mr-16">
+    <div class="lg:w-1/2 w-full flex justify-center lg:mr-16">
       <img
         src="../assets/images/image-hero-desktop.png"
         alt="image-hero-desktop"
-        class="w-[420px] h-auto object-contain"
+        class="w-[420px] h-auto object-contain hidden lg:block"
+      />
+      <img
+        src="../assets/images/image-hero-mobile.png"
+        alt="image-hero-mobile"
+        class="block lg:hidden"
       />
     </div>
   </section>
